@@ -1,0 +1,50 @@
+
+.thong-bao:hover{
+    transition: 0.3s;
+    background-color: rgba(136, 136, 136, 0.144);
+}
+.tab-list{
+    list-style: none;
+
+}
+.item-list{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #E4E7ED;
+    transition: 0.3s;
+
+}
+.item-list:hover{
+    background-color: rgba(238, 144, 207, 0.329);
+    transition: 0.3s;
+}
+.active1{
+    background-color: rgba(238, 144, 207, 0.397);
+}
+
+.noidung{
+    margin-left: 5%;
+    min-height: 100px;
+}
+
+.anhthongbao{
+    display: block; 
+    text-align: center;
+}
+.thoigian{
+    text-align: right;
+}
+object:focus {
+    outline: none;
+}
+.download{
+    border-radius: 5px;
+    background-image: linear-gradient(60deg, #ab47bc, #8e24aa);
+
+}
+.download:hover{
+    background-image: linear-gradient(60deg, #b782c0, #d557f8);
+}
